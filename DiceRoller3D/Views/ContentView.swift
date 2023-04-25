@@ -6,15 +6,21 @@
 //
 
 import SwiftUI
+import SceneKit
 
 struct ContentView: View {
     var body: some View {
         VStack {
-            Image(systemName: "globe")
-                .imageScale(.large)
-                .foregroundColor(.accentColor)
-            Text("Hello, world!")
+            Text("DiceRoller3D")
+                .font(.custom("Arial Rounded MT Bold", size: 50))
+                .fontWeight(.bold)
+                .foregroundColor(Color.cyan)
+            SceneKitView()
+                .frame(height: 400)
+                .border(Color.black, width: 4)
         }
+        
+        
         .padding()
     }
 }

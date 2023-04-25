@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		03C1482629F8780D00BA686F /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1482529F8780D00BA686F /* SceneKitView.swift */; };
 		03DDDBA129F71ECA004C6AB4 /* DiceRoller3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDDBA029F71ECA004C6AB4 /* DiceRoller3DApp.swift */; };
 		03DDDBA329F71ECA004C6AB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDDBA229F71ECA004C6AB4 /* ContentView.swift */; };
 		03DDDBA529F71ECB004C6AB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 03DDDBA429F71ECB004C6AB4 /* Assets.xcassets */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		03C1482529F8780D00BA686F /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
 		03DDDB9D29F71ECA004C6AB4 /* DiceRoller3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoller3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DDDBA029F71ECA004C6AB4 /* DiceRoller3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoller3DApp.swift; sourceTree = "<group>"; };
 		03DDDBA229F71ECA004C6AB4 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -32,6 +34,29 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		03C1482229F8746500BA686F /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				03DDDBA229F71ECA004C6AB4 /* ContentView.swift */,
+				03C1482529F8780D00BA686F /* SceneKitView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		03C1482329F8747400BA686F /* Models */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		03C1482429F8747B00BA686F /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
 		03DDDB9429F71ECA004C6AB4 = {
 			isa = PBXGroup;
 			children = (
@@ -52,7 +77,9 @@
 			isa = PBXGroup;
 			children = (
 				03DDDBA029F71ECA004C6AB4 /* DiceRoller3DApp.swift */,
-				03DDDBA229F71ECA004C6AB4 /* ContentView.swift */,
+				03C1482329F8747400BA686F /* Models */,
+				03C1482229F8746500BA686F /* Views */,
+				03C1482429F8747B00BA686F /* ViewModels */,
 				03DDDBA429F71ECB004C6AB4 /* Assets.xcassets */,
 				03DDDBA629F71ECB004C6AB4 /* Preview Content */,
 			);
@@ -139,6 +166,7 @@
 			files = (
 				03DDDBA329F71ECA004C6AB4 /* ContentView.swift in Sources */,
 				03DDDBA129F71ECA004C6AB4 /* DiceRoller3DApp.swift in Sources */,
+				03C1482629F8780D00BA686F /* SceneKitView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
