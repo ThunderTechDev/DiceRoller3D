@@ -15,9 +15,23 @@ struct ContentView: View {
                 .font(.custom("Arial Rounded MT Bold", size: 50))
                 .fontWeight(.bold)
                 .foregroundColor(Color.cyan)
-            SceneKitView()
-                .frame(height: 400)
-                .border(Color.black, width: 4)
+            ZStack {
+                RoundedRectangle(cornerRadius: 14)
+                    .strokeBorder(Color.black, lineWidth: 20)
+                    
+                
+                SceneKitView()
+                    .frame(width: 385, height: 385)
+                    .cornerRadius(9)
+                    
+            }
+            .frame(width: 400, height: 400)
+            .cornerRadius(14)
+            
+            
+         
+            
+                
         }
         
         
