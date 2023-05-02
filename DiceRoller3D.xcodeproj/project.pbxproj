@@ -7,7 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		037464DC29F9C0A9007778DE /* DiceMatScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 037464DB29F9C0A9007778DE /* DiceMatScene.scn */; };
+		0372C91C29FFA9F800DD093B /* DiceMatScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0372C91B29FFA9F800DD093B /* DiceMatScene.scn */; };
 		03C1482629F8780D00BA686F /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1482529F8780D00BA686F /* SceneKitView.swift */; };
 		03DDDBA129F71ECA004C6AB4 /* DiceRoller3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDDBA029F71ECA004C6AB4 /* DiceRoller3DApp.swift */; };
 		03DDDBA329F71ECA004C6AB4 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDDBA229F71ECA004C6AB4 /* ContentView.swift */; };
@@ -16,7 +16,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		037464DB29F9C0A9007778DE /* DiceMatScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; path = DiceMatScene.scn; sourceTree = "<group>"; };
+		0372C91B29FFA9F800DD093B /* DiceMatScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = DiceMatScene.scn; path = "Blender Scene/DiceMatScene.scn"; sourceTree = SOURCE_ROOT; };
 		03C1482529F8780D00BA686F /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
 		03DDDB9D29F71ECA004C6AB4 /* DiceRoller3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoller3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DDDBA029F71ECA004C6AB4 /* DiceRoller3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoller3DApp.swift; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 			children = (
 				03DDDBA229F71ECA004C6AB4 /* ContentView.swift */,
 				03C1482529F8780D00BA686F /* SceneKitView.swift */,
-				037464DB29F9C0A9007778DE /* DiceMatScene.scn */,
+				0372C91B29FFA9F800DD093B /* DiceMatScene.scn */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -156,8 +156,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				03DDDBA829F71ECB004C6AB4 /* Preview Assets.xcassets in Resources */,
+				0372C91C29FFA9F800DD093B /* DiceMatScene.scn in Resources */,
 				03DDDBA529F71ECB004C6AB4 /* Assets.xcassets in Resources */,
-				037464DC29F9C0A9007778DE /* DiceMatScene.scn in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
