@@ -10,6 +10,8 @@ import SceneKit
 
 struct ContentView: View {
     var body: some View {
+        
+        
         VStack {
             Text("DiceRoller3D")
                 .font(.custom("Arial Rounded MT Bold", size: 50))
@@ -28,6 +30,9 @@ struct ContentView: View {
             .frame(width: 400, height: 400)
             .cornerRadius(14)
             
+            Button("Lanzar dados", action: {
+            })
+            .frame(width: 100, height: 100)
             
          
             

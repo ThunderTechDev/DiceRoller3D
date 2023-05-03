@@ -7,6 +7,11 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0351389A2A02FD8000CB0728 /* Mat Normal Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 035138952A02FD8000CB0728 /* Mat Normal Map.png */; };
+		0351389B2A02FD8000CB0728 /* WhiteDiceMaterial Base Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 035138962A02FD8000CB0728 /* WhiteDiceMaterial Base Color.png */; };
+		0351389C2A02FD8000CB0728 /* RedDiceMaterial Base Color.png in Resources */ = {isa = PBXBuildFile; fileRef = 035138972A02FD8000CB0728 /* RedDiceMaterial Base Color.png */; };
+		0351389D2A02FD8000CB0728 /* RedDiceMaterial Normal Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 035138982A02FD8000CB0728 /* RedDiceMaterial Normal Map.png */; };
+		0351389E2A02FD8000CB0728 /* WhiteDiceMaterial Normal Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 035138992A02FD8000CB0728 /* WhiteDiceMaterial Normal Map.png */; };
 		0372C91C29FFA9F800DD093B /* DiceMatScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0372C91B29FFA9F800DD093B /* DiceMatScene.scn */; };
 		03C1482629F8780D00BA686F /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1482529F8780D00BA686F /* SceneKitView.swift */; };
 		03DDDBA129F71ECA004C6AB4 /* DiceRoller3DApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03DDDBA029F71ECA004C6AB4 /* DiceRoller3DApp.swift */; };
@@ -16,7 +21,12 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		0372C91B29FFA9F800DD093B /* DiceMatScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file; name = DiceMatScene.scn; path = "Blender Scene/DiceMatScene.scn"; sourceTree = SOURCE_ROOT; };
+		035138952A02FD8000CB0728 /* Mat Normal Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "Mat Normal Map.png"; path = "DiceRoller3D/Resources/Mat Normal Map.png"; sourceTree = SOURCE_ROOT; };
+		035138962A02FD8000CB0728 /* WhiteDiceMaterial Base Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WhiteDiceMaterial Base Color.png"; path = "DiceRoller3D/Resources/WhiteDiceMaterial Base Color.png"; sourceTree = SOURCE_ROOT; };
+		035138972A02FD8000CB0728 /* RedDiceMaterial Base Color.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RedDiceMaterial Base Color.png"; path = "DiceRoller3D/Resources/RedDiceMaterial Base Color.png"; sourceTree = SOURCE_ROOT; };
+		035138982A02FD8000CB0728 /* RedDiceMaterial Normal Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "RedDiceMaterial Normal Map.png"; path = "DiceRoller3D/Resources/RedDiceMaterial Normal Map.png"; sourceTree = SOURCE_ROOT; };
+		035138992A02FD8000CB0728 /* WhiteDiceMaterial Normal Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WhiteDiceMaterial Normal Map.png"; path = "DiceRoller3D/Resources/WhiteDiceMaterial Normal Map.png"; sourceTree = SOURCE_ROOT; };
+		0372C91B29FFA9F800DD093B /* DiceMatScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = DiceMatScene.scn; path = "Blender Scene/DiceMatScene.scn"; sourceTree = SOURCE_ROOT; };
 		03C1482529F8780D00BA686F /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
 		03DDDB9D29F71ECA004C6AB4 /* DiceRoller3D.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DiceRoller3D.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		03DDDBA029F71ECA004C6AB4 /* DiceRoller3DApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceRoller3DApp.swift; sourceTree = "<group>"; };
@@ -36,6 +46,18 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		035138942A02FD4D00CB0728 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				035138952A02FD8000CB0728 /* Mat Normal Map.png */,
+				035138972A02FD8000CB0728 /* RedDiceMaterial Base Color.png */,
+				035138982A02FD8000CB0728 /* RedDiceMaterial Normal Map.png */,
+				035138962A02FD8000CB0728 /* WhiteDiceMaterial Base Color.png */,
+				035138992A02FD8000CB0728 /* WhiteDiceMaterial Normal Map.png */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
 		03C1482229F8746500BA686F /* Views */ = {
 			isa = PBXGroup;
 			children = (
@@ -84,6 +106,7 @@
 				03C1482229F8746500BA686F /* Views */,
 				03C1482429F8747B00BA686F /* ViewModels */,
 				03DDDBA429F71ECB004C6AB4 /* Assets.xcassets */,
+				035138942A02FD4D00CB0728 /* Resources */,
 				03DDDBA629F71ECB004C6AB4 /* Preview Content */,
 			);
 			path = DiceRoller3D;
@@ -157,7 +180,12 @@
 			files = (
 				03DDDBA829F71ECB004C6AB4 /* Preview Assets.xcassets in Resources */,
 				0372C91C29FFA9F800DD093B /* DiceMatScene.scn in Resources */,
+				0351389D2A02FD8000CB0728 /* RedDiceMaterial Normal Map.png in Resources */,
+				0351389A2A02FD8000CB0728 /* Mat Normal Map.png in Resources */,
 				03DDDBA529F71ECB004C6AB4 /* Assets.xcassets in Resources */,
+				0351389C2A02FD8000CB0728 /* RedDiceMaterial Base Color.png in Resources */,
+				0351389E2A02FD8000CB0728 /* WhiteDiceMaterial Normal Map.png in Resources */,
+				0351389B2A02FD8000CB0728 /* WhiteDiceMaterial Base Color.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
