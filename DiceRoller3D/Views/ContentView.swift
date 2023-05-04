@@ -9,9 +9,10 @@ import SwiftUI
 import SceneKit
 
 struct ContentView: View {
+    @StateObject private var diceViewModel = DiceViewModel()
+    @State private var sceneKitView: SCNView?
+    
     var body: some View {
-        
-        
         VStack {
             Text("DiceRoller3D")
                 .font(.custom("Arial Rounded MT Bold", size: 50))
@@ -20,26 +21,23 @@ struct ContentView: View {
             ZStack {
                 RoundedRectangle(cornerRadius: 14)
                     .strokeBorder(Color.black, lineWidth: 20)
-                    
                 
-                SceneKitView()
+                SceneKitView(sceneKitView: $sceneKitView)
                     .frame(width: 385, height: 385)
                     .cornerRadius(9)
-                    
             }
             .frame(width: 400, height: 400)
             .cornerRadius(14)
             
             Button("Lanzar dados", action: {
+                if let redDice = sceneKitView?.scene?.rootNode.childNode(withName: "RedDice", recursively: true),
+                   let whiteDice = sceneKitView?.scene?.rootNode.childNode(withName: "WhiteDice", recursively: true) {
+                    diceViewModel.applyRandomImpulseAndRotation(to: [redDice,whiteDice])
+                }
             })
             .frame(width: 100, height: 100)
-            
-         
-            
-                
+
         }
-        
-        
         .padding()
     }
 }
