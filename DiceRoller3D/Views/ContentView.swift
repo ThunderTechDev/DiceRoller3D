@@ -7,6 +7,7 @@
 
 import SwiftUI
 import SceneKit
+import AVFoundation
 
 struct ContentView: View {
     @StateObject private var diceViewModel = DiceViewModel()
@@ -32,7 +33,8 @@ struct ContentView: View {
             Button("Lanzar dados", action: {
                 if let redDice = sceneKitView?.scene?.rootNode.childNode(withName: "RedDice", recursively: true),
                    let whiteDice = sceneKitView?.scene?.rootNode.childNode(withName: "WhiteDice", recursively: true) {
-                    diceViewModel.applyRandomImpulseAndRotation(to: [redDice,whiteDice])
+                    diceViewModel.applyRandomImpulseAndRotation(to: [redDice, whiteDice])
+                    diceViewModel.playAudios(sceneKitView: sceneKitView)
                 }
             })
             .frame(width: 100, height: 100)
@@ -41,6 +43,7 @@ struct ContentView: View {
         .padding()
     }
 }
+
 
 struct ContentView_Previews: PreviewProvider {
     static var previews: some View {
