@@ -13,6 +13,7 @@
 		0351389D2A02FD8000CB0728 /* RedDiceMaterial Normal Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 035138982A02FD8000CB0728 /* RedDiceMaterial Normal Map.png */; };
 		0351389E2A02FD8000CB0728 /* WhiteDiceMaterial Normal Map.png in Resources */ = {isa = PBXBuildFile; fileRef = 035138992A02FD8000CB0728 /* WhiteDiceMaterial Normal Map.png */; };
 		0372C91C29FFA9F800DD093B /* DiceMatScene.scn in Resources */ = {isa = PBXBuildFile; fileRef = 0372C91B29FFA9F800DD093B /* DiceMatScene.scn */; };
+		037ABD962A0D920000958ED2 /* Launch Screen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 037ABD952A0D920000958ED2 /* Launch Screen.storyboard */; };
 		037E370A2A044FCC0024EBB7 /* DiceViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 037E37092A044FCC0024EBB7 /* DiceViewModel.swift */; };
 		03A6A5032A0AE2B900F1049D /* HitDice.caf in Resources */ = {isa = PBXBuildFile; fileRef = 03CE050E2A099021008F4377 /* HitDice.caf */; };
 		03C1482629F8780D00BA686F /* SceneKitView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 03C1482529F8780D00BA686F /* SceneKitView.swift */; };
@@ -30,6 +31,7 @@
 		035138992A02FD8000CB0728 /* WhiteDiceMaterial Normal Map.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "WhiteDiceMaterial Normal Map.png"; path = "DiceRoller3D/Resources/WhiteDiceMaterial Normal Map.png"; sourceTree = SOURCE_ROOT; };
 		0372C91B29FFA9F800DD093B /* DiceMatScene.scn */ = {isa = PBXFileReference; lastKnownFileType = file.bplist; name = DiceMatScene.scn; path = "Blender Scene/DiceMatScene.scn"; sourceTree = SOURCE_ROOT; };
 		03763A3C2A0C398C0032924B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		037ABD952A0D920000958ED2 /* Launch Screen.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = "Launch Screen.storyboard"; sourceTree = "<group>"; };
 		037E37092A044FCC0024EBB7 /* DiceViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DiceViewModel.swift; sourceTree = "<group>"; };
 		03C1482529F8780D00BA686F /* SceneKitView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneKitView.swift; sourceTree = "<group>"; };
 		03CE050E2A099021008F4377 /* HitDice.caf */ = {isa = PBXFileReference; lastKnownFileType = file; path = HitDice.caf; sourceTree = "<group>"; };
@@ -70,6 +72,7 @@
 				03DDDBA229F71ECA004C6AB4 /* ContentView.swift */,
 				03C1482529F8780D00BA686F /* SceneKitView.swift */,
 				0372C91B29FFA9F800DD093B /* DiceMatScene.scn */,
+				037ABD952A0D920000958ED2 /* Launch Screen.storyboard */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -194,6 +197,7 @@
 				03DDDBA529F71ECB004C6AB4 /* Assets.xcassets in Resources */,
 				0351389C2A02FD8000CB0728 /* RedDiceMaterial Base Color.png in Resources */,
 				0351389E2A02FD8000CB0728 /* WhiteDiceMaterial Normal Map.png in Resources */,
+				037ABD962A0D920000958ED2 /* Launch Screen.storyboard in Resources */,
 				0351389B2A02FD8000CB0728 /* WhiteDiceMaterial Base Color.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -344,6 +348,7 @@
 				INFOPLIST_FILE = DiceRoller3D/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (
@@ -377,6 +382,7 @@
 				INFOPLIST_FILE = DiceRoller3D/Info.plist;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = "Launch Screen.storyboard";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
 				LD_RUNPATH_SEARCH_PATHS = (

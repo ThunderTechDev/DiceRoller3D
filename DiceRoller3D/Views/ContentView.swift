@@ -25,7 +25,8 @@ struct ContentView: View {
                 Text("DiceRoller3D")
                     .font(.custom("Arial Rounded MT Bold", size: 50))
                     .fontWeight(.bold)
-                    .foregroundColor(Color.blue)
+                    .foregroundColor(Color.white)
+                    .shadow(color: .black, radius: 20, x: 0, y: 0)
                 ZStack {
                     RoundedRectangle(cornerRadius: 14)
                         .strokeBorder(Color.black, lineWidth: 20)
@@ -47,14 +48,13 @@ struct ContentView: View {
                     }
                 }) {
                     Text("Lanzar Dados")
-                        .font(.custom("Arial Rounded MT Bold", size: 23))
-                        .frame(width: 80, height: 80)
+                        .font(.custom("Arial Rounded MT Bold", size: 17))
+                        .frame(width: 60, height: 60)
                         .foregroundColor(.white)
-                        .bold()
-                        .padding(EdgeInsets(top: 50, leading: 50, bottom: 50, trailing: 50))
+                        .padding(EdgeInsets(top: 20, leading: 20, bottom: 20, trailing: 20))
                         .background(Color(red: 8/255, green:155/255, blue: 80/255))
                         .clipShape(Circle())
-                        .shadow(color: .black, radius: 30, x: 0, y: 0)
+                        .shadow(color: .white, radius: 30, x: 0, y: 0)
                         .lineLimit(2)
                         
                 }
