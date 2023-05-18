@@ -4,7 +4,7 @@ DiceRoller3D is a SwiftUI app that features a 3D scene embedded within a View, w
 
 | App DiceRoller3D | 
 |:--------:|
-| <img src="https://user-images.githubusercontent.com/105247375/234119834-d46fb514-df61-47f0-a4b7-166ff10fa73a.png" alt="Screenshot 1" title="Screenshot 1" width="200"> | 
+| <img width="462" alt="Captura de pantalla 2023-05-18 a las 22 45 40" src="https://github.com/ThunderTechDev/DiceRoller3D/assets/105247375/d7e9b13b-7982-4000-92a2-4acbf9ede5a2"> | 
 
 
 ## Features
