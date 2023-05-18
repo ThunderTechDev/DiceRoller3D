@@ -52,8 +52,8 @@ struct ContentView: View {
                             diceViewModel.playAudios(sceneKitView: sceneKitView)
                         }
                     }) {
-                        Text("Lanzar Dados")
-                            .font(.custom("Arial Rounded MT Bold", size: 17))
+                        Text("Throw Dice")
+                            .font(.custom("Arial Rounded MT Bold", size: 20))
                             .frame(width: geometry.size.width * 0.25, height: geometry.size.width * 0.25)
                             .foregroundColor(.white)
                             .padding(EdgeInsets(top: geometry.size.height * 0.04, leading: geometry.size.width * 0.04, bottom: geometry.size.height * 0.04, trailing: geometry.size.width * 0.04))
